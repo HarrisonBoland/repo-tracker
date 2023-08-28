@@ -27,7 +27,7 @@ export default function Header() {
             <MagnifyingGlassIcon className="h-6 w-6 text-gray-400" />
             <input
               type="text"
-              placeholder="Search test"
+              placeholder="Search"
               className="flex-1 outline-none p-2"
               value={searchString}
               onChange={(e) => setSearchString(e.target.value)}
